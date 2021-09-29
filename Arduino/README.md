@@ -8,19 +8,18 @@ This application i used to test making a my d1 mini connect to my router.
 ![connection](https://github.com/Rudolfisky/FHICT-S3-demotica-dashboard/blob/main/Arduino/internet%20connection.png?raw=true)
 
 # app/webserver_test
-this application was used to see if i can host a webserver of of my d1 mini.
+This application was used to see if i can host a webserver of of my d1 mini.
 
 # app/TempSensor
-this application i made to test my DS temperature sensor.
+This application i made to test my DS temperature sensor.
 
 # app/tempWebserver
-this application combines the webserver_test and TempSensor.
+This application combines the webserver_test and TempSensor.
 
 # app/DHT_sensor
-this application i used to test my DHT sensor.
+This application i used to test my DHT sensor.
 
 # soldering
-this application i used to test my DHT sensor.
 ![soldering](https://github.com/Rudolfisky/FHICT-S3-demotica-dashboard/blob/main/Arduino/soldering.jpg?raw=true)
 
 # conclusion/sensor
