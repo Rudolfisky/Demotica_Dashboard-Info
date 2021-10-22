@@ -28,9 +28,12 @@ even though the DHT sensor has the capability to mesure temperature as wel as ai
 the DS sensor is acurate to 0.5.
 in conclusion, i am going to continue with the DS for now
 
-# MQTT pub
+# app/MQTT pub
 the mqtt pub project connects to my local wifi network and my Mosquito mqtt server i have running on my laptop.
 ![connection](https://github.com/Rudolfisky/FHICT-S3-demotica-dashboard/blob/main/Arduino/Media/mqttpub.png?raw=true)
+
+# app/MQTT pub temp
+this project is a merge between MQTT pub and tempsensor
 
 
 
