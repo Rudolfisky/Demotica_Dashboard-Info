@@ -10,7 +10,7 @@ const char* ssid     = "Hatter";
 const char* password = "Wifi plz?";
 
 // mqqt broker details
-const char broker[] = "192.168.0.67";
+const char broker[] = "192.168.0.70";
 int        port     = 1883;
 const char topic[]  = "tempC";
 const char topic2[]  = "tempF";
@@ -20,8 +20,15 @@ const char topic3[]  = "tempSensorUptime";
 const int oneWireBus = 4;     
 
 //interval for sending messages (milliseconds)
-const long interval = 1000;
-unsigned long previousMillis = 0;
+const long dataInterval = 1000;
+unsigned long previousDataMillis = 0;
+
+//interval for reconnecting (milliseconds)
+const long reconnectInterval = 60000;
+unsigned long previousReconnectMillis = 0;
+
+//connection state
+bool connected = false;
 
 // setup instances
 WiFiClient wifiClient;
@@ -58,6 +65,7 @@ void setup() {
   }
   Serial.println("You're connected to the MQTT broker!");
   Serial.println();
+  connected = true;
 
   // Start the DS18B20 sensor
   sensors.begin();
@@ -67,12 +75,24 @@ void loop() {
   // call poll() regularly to allow the library to send MQTT keep alive which
   // avoids being disconnected by the broker
   mqttClient.poll();
+  
 
   unsigned long currentMillis = millis();
 
-  if (currentMillis - previousMillis >= interval) {
+  if (currentMillis - previousReconnectMillis >= reconnectInterval){
+    previousReconnectMillis = currentMillis;
+    if (!mqttClient.connect(broker, port)) {
+      Serial.print("MQTT connection failed! Error code = ");
+      Serial.println(mqttClient.connectError());
+      
+      while (1);
+    }
+    Serial.println("refresh connection");
+  }
+
+  if (currentMillis - previousDataMillis >= dataInterval) {
     // save the last time a message was sent
-    previousMillis = currentMillis;
+    previousDataMillis = currentMillis;
 
     //get uptime
     String uptime = timeSinceStart();
