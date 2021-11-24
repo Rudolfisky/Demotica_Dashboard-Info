@@ -1,4 +1,4 @@
-# FHICT-S3-demotica-dashboard
+# Demotica-Dashboard
 In this project i am going to make a dashboard.
 The dashboard will show the following:
  - Weather
