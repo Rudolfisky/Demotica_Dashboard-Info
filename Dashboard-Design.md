@@ -3,9 +3,9 @@ In this file i will note down the possible design choices and ux requirements th
 
 ## Research
 In order to start working on a design, i first need to know what makes a dashboard a good dashboard. 
-With some help from [this website](https://www.eleken.co/blog-posts/dashboard-design-examples-that-catch-the-eye) i had found a few things to keep in mind for when designing my dashboard.
-Firstly, a good dashboard should require the user to look for no longer then 5 seconds for all required data.
-Secondly, the user should be able to see the most important things first.
+With some help from [this website](https://www.eleken.co/blog-posts/dashboard-design-examples-that-catch-the-eye) i had found a few things to keep in mind for when designing my dashboard.<br/>
+Firstly, a good dashboard should require the user to look for no longer then 5 seconds for all required data.<br/>
+Secondly, the user should be able to see the most important things first.<br/>
 Last but not least, the user should not be overwelmed with data.
 
 ## Requirements
