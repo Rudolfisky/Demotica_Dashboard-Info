@@ -1,5 +1,5 @@
 # Demotica-Dashboard: Dashboard Design
-In this file i will note down the possible design choices and ux requirements the related to the front end.
+In this document i will note down the possible design choices and ux requirements the related to the front end.
 
 ## Research
 In order to start working on a design, i first need to know what makes a dashboard a good dashboard. 
