@@ -26,4 +26,3 @@ The temerature service will be able to save data to a database and handle REST c
 [Esp8266 Temperature Sensor Repo](https://github.com/Rudolfisky/Demotica_Dashboard-Esp8266_Temperature_Sensor)<br />
 [Esp8266 Temperature Sensor POC's Repo](https://github.com/Rudolfisky/Demotica_Dashboard-POC-Esp8266)<br />
 This repo contains the hardware component that sends out data to a MQTT broker and connects to a network.
-
