@@ -1,7 +1,19 @@
 # Demotica-Dashboard: Dashboard Design
 In this document i will note down the possible design choices and ux requirements the related to the front end.
 
-## Research
+## Available product analysis
+In order to make a dashboard myself, i need an understanding of how other people tackled this problem.
+### Dashboard on hardware
+On [this link](https://computertotaal.nl/artikelen/internet-thuis/zo-maak-je-een-eenvoudig-dashboard-voor-je-domoticasysteem/) i found a tutorial for making a raspberry pi with a display that acts as a dashboard for a MQTT broker. this kind of dashboard is one that runs on a device dedicated to displaying that dashboard.
+![related image](https://api.reshift.nl/modules/media/show_image/569967/?width=640&crop=center)
+### Android Dashboard application
+(This link)[https://play.google.com/store/apps/details?id=app.homehabit.view&hl=nl&gl=US] leads to an playstore app that allows the user to create their own dashboard using within the app. the dashboard can be made up to the user own specs using multiple popular integrations like MQTT, home assistant, Domoticz and more.
+![related image](https://play-lh.googleusercontent.com/m1KCENqg8pVep7qdtcdrYjJtVnd--lH_t_7KP8phH-WuebTzTULqoSsQxt16IHIah_8=w2560-h1315)
+<br/><br/>
+### In conclusion
+there are a lot diffrent ways to make a demotica dashboard, almost all of them are customizable. Most of Dasboards take the form of a piece of hardware dedicated to displaying said dashboard, or are mobile applications. 
+
+## Researching
 In order to start working on a design, i first need to know what makes a dashboard a good dashboard. 
 With some help from [this website](https://www.eleken.co/blog-posts/dashboard-design-examples-that-catch-the-eye) i had found a few things to keep in mind for when designing my dashboard.<br/>
 Firstly, a good dashboard should require the user to look for no longer then 5 seconds for all required data.<br/>
