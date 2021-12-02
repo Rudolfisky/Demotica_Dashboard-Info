@@ -1,4 +1,4 @@
-# Demotica-Dashboard: Dashboard Design
+# Demotica-Dashboard: Dashboard Design | How do i make a clean yet informative Dashboard?
 In this document i will note down the possible design choices and ux requirements the related to the front end.
 
 ## Available product analysis
