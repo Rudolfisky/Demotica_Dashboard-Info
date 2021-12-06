@@ -7,7 +7,7 @@ In order to make a dashboard myself, i need an understanding of how other people
 On [this link](https://computertotaal.nl/artikelen/internet-thuis/zo-maak-je-een-eenvoudig-dashboard-voor-je-domoticasysteem/) i found a tutorial for making a raspberry pi with a display that acts as a dashboard for a MQTT broker. this kind of dashboard is one that runs on a device dedicated to displaying that dashboard.
 ![related image](https://api.reshift.nl/modules/media/show_image/569967/?width=640&crop=center)
 ### Android Dashboard application
-(This link)[https://play.google.com/store/apps/details?id=app.homehabit.view&hl=nl&gl=US] leads to an playstore app that allows the user to create their own dashboard using within the app. the dashboard can be made up to the user own specs using multiple popular integrations like MQTT, home assistant, Domoticz and more.
+[This link](https://play.google.com/store/apps/details?id=app.homehabit.view&hl=nl&gl=US) leads to an playstore app that allows the user to create their own dashboard using within the app. the dashboard can be made up to the user own specs using multiple popular integrations like MQTT, home assistant, Domoticz and more.
 ![related image](https://play-lh.googleusercontent.com/m1KCENqg8pVep7qdtcdrYjJtVnd--lH_t_7KP8phH-WuebTzTULqoSsQxt16IHIah_8=w2560-h1315)
 <br/><br/>
 ### In conclusion
