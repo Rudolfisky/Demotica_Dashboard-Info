@@ -37,8 +37,14 @@ The requirements are as follows:
 ### Mainpage
 On the main page i have only put the essentials. you can see the indoor, outdoor and graph along with a fullscreen and settings button.
 On a side note, the cube in the top left is supposed to be a cog wheel.
-![dashboard-pc.png](https://github.com/Rudolfisky/Demotica_Dashboard-Info/blob/main/Media/dashboard-pc.png?raw=true)
+![dashboard-pc.png](https://github.com/Rudolfisky/Demotica_Dashboard-Info/blob/development/Media/dashboard-pc.png?raw=true)
+![dashboard-mobile.png](https://github.com/Rudolfisky/Demotica_Dashboard-Info/blob/development/Media/dashboard-mobile.png?raw=true)
 ### Settings
 In the setting i have put some more technical settings regarding api call intervals.
 Same as with the mainpage, the button on the top left is supposed to be the back button with a back arrow.
-![settings-pc.png](https://github.com/Rudolfisky/Demotica_Dashboard-Info/blob/main/Media/settings-pc.png?raw=true)
+![settings-pc.png](https://github.com/Rudolfisky/Demotica_Dashboard-Info/blob/development/Media/settings-pc.png?raw=true)
+![settings-pc.png](https://github.com/Rudolfisky/Demotica_Dashboard-Info/blob/development/Media/settings-mobile.png?raw=true)
+<br/><br/>
+An alternation on the first design using dropdowns instead of buttons.
+<br/>
+![settings-pc.png](https://github.com/Rudolfisky/Demotica_Dashboard-Info/blob/development/Media/settings-mobile-alt1.png?raw=true)
