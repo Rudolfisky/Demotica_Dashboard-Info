@@ -1,8 +1,8 @@
 # Demotica-Dashboard: Dashboard Design | How do i make a clean yet informative Dashboard?
-In this document i will note down the possible design choices and ux requirements the related to the front end.
+In this document I will use the DOT research framework in order to establish a good dashboard design for my project. 
 
-## Available product analysis
-In order to make a dashboard myself, i need an understanding of how other people tackled this problem.
+## What dashboard designs have other people made?
+In order to make a dashboard myself, i need an understanding of how other people tackled this problem. in order to aquire this knowledge, i will be doing a available product analysis.
 ### Dashboard on hardware
 On [this link](https://computertotaal.nl/artikelen/internet-thuis/zo-maak-je-een-eenvoudig-dashboard-voor-je-domoticasysteem/) i found a tutorial for making a raspberry pi with a display that acts as a dashboard for a MQTT broker. this kind of dashboard is one that runs on a device dedicated to displaying that dashboard.
 ![related image](https://api.reshift.nl/modules/media/show_image/569967/?width=640&crop=center)
@@ -13,15 +13,16 @@ On [this link](https://computertotaal.nl/artikelen/internet-thuis/zo-maak-je-een
 ### In conclusion
 there are a lot diffrent ways to make a demotica dashboard, almost all of them are customizable. Most of Dasboards take the form of a piece of hardware dedicated to displaying said dashboard, or are mobile applications. 
 
-## Researching
+## What are some good dashboard guidelines?
 In order to start working on a design, i first need to know what makes a dashboard a good dashboard. 
 With some help from [this website](https://www.eleken.co/blog-posts/dashboard-design-examples-that-catch-the-eye) i had found a few things to keep in mind for when designing my dashboard.<br/>
 Firstly, a good dashboard should require the user to look for no longer then 5 seconds for all required data.<br/>
 Secondly, the user should be able to see the most important things first.<br/>
 Last but not least, the user should not be overwelmed with data.
 
-## Requirements
-the requirements are as follows:
+## What are my dashboard requirements?
+before I start working on possible wireframe designs, I will have to sum up my dashboard requirements.
+The requirements are as follows:
 1. The dashboard must display inside the temperature acurate to 10 seconds
 2. The dashboard should have a fullscreen mode for dedicated tablets and dedicated monitoring devices
 3. The dashboard should display a graph with averages from previous data such as:
