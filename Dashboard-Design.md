@@ -2,16 +2,25 @@
 In this document I will use the DOT research framework in order to establish a good dashboard design for my project. 
 
 ## What dashboard designs have other people made?
-In order to make a dashboard myself, I need an understanding of how other people tackled this problem. In order to aquire this knowledge, I will be doing a available product analysis.
+In order to make a dashboard myself, I need an understanding of how other people tackled this problem. In order to aquire this knowledge I will analyze available products
 ### Dashboard on hardware
-On [this link](https://computertotaal.nl/artikelen/internet-thuis/zo-maak-je-een-eenvoudig-dashboard-voor-je-domoticasysteem/) I found a tutorial for making a raspberry pi with a display that acts as a dashboard for a MQTT broker. This kind of dashboard is one that runs on a device dedicated to displaying that dashboard.
+
+>Vervloesem, K. (2021, 18 januari). Zo maak je een eenvoudig dashboard voor je domoticasysteem. computertotaal.nl. https://computertotaal.nl/artikelen/internet-thuis/zo-maak-je-een-eenvoudig-dashboard-voor-je-domoticasysteem/
+
+The source, found through google, is a tutorial for making a raspberry pi with a display that acts as a dashboard for a MQTT broker. This kind of dashboard is one that runs on a device dedicated to displaying that dashboard. the upside to this is that it is a lot cheaper to produce and can be more throughly costumized.<br/>
 ![related image](https://api.reshift.nl/modules/media/show_image/569967/?width=640&crop=center)
+<br/>
+
 ### Android Dashboard application
-[This link](https://play.google.com/store/apps/details?id=app.homehabit.view&hl=nl&gl=US) leads to an playstore app that allows the user to create their own dashboard using within the app. The dashboard can be made up to the user own specs using multiple popular integrations like MQTT, home assistant, Domoticz and more.
+
+>Habit Automated LLC. (2021, 28 november). HomeHabit - Smart Home Dashboard. play.google.com. https://play.google.com/store/apps/details?id=app.homehabit.view&hl=nl&gl=US
+
+The source leads to an playstore app that allows the user to create their own dashboard using within the app. The dashboard can be made up to the user own specs using multiple popular integrations like MQTT, home assistant, Domoticz and more. A common theme among dashboards is that they are very costumizable, as shown by my source<br/>
 ![related image](https://play-lh.googleusercontent.com/m1KCENqg8pVep7qdtcdrYjJtVnd--lH_t_7KP8phH-WuebTzTULqoSsQxt16IHIah_8=w2560-h1315)
-<br/><br/>
+<br/>
 ### In conclusion
-There are a lot diffrent ways to make a demotica dashboard, almost all of them are customizable. Most of Dasboards take the form of a piece of hardware dedicated to displaying said dashboard, or are mobile applications. 
+There are a lot diffrent ways to make a demotica dashboard, almost all of them are customizable. Most of Dasboards take the form of a piece of hardware dedicated to displaying said dashboard, or are mobile applications.  The most important thing that all dashboards had in common however, was the way they displayed data. no mattar how you choose to implement a dashboard, you always need to make sure the data you are handling is being displayed in such a way that the user immediately understands it.
+<br/>
 
 ## What are some good dashboard guidelines?
 In order to start working on a design, I first need to know what makes a dashboard a good dashboard. 
