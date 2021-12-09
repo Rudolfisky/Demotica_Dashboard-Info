@@ -1,4 +1,4 @@
-# Demotica-Dashboard: Dashboard Design | How do i make a clean yet informative Dashboard?
+# Demotica-Dashboard: Dashboard Design | How to make a clean yet informative Dashboard to display temperature info?
 In this document I will use the DOT research framework in order to establish a good dashboard design for my project. 
 
 ## What dashboard designs have other people made?
