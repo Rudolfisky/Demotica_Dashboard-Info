@@ -8,15 +8,21 @@ As is shown in the diagram, there are about 4 services that are comunicating wit
 ### Local
 ### 3rd party hosting service
 ### Self hosting
+### In conclusion
+<br/>
 
 ## What are MQTT broker hosting solutions
 ### Local
 ### 3rd party hosting service
 ### Self hosting
+### In conclusion
+<br/>
 
 ## What are React hosting solutions
 ### Local
 ### 3rd party hosting service
 ### Self hosting
+### In conclusion
+<br/>
 
-## What is a safe way to port fowrawrd
+## What is a safe way to port fowrward
