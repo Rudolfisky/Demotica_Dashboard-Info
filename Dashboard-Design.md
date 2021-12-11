@@ -2,7 +2,7 @@
 In this document I will use the DOT research framework in order to establish a good dashboard design for my project. 
 
 ## What dashboard designs have other people made?
-In order to make a dashboard myself, I need an understanding of how other people tackled this problem. In order to aquire this knowledge I will analyze available products
+In order to make a dashboard myself, I need an understanding of how other people tackled this problem. In order to aquire this knowledge I will analyze available products from google searches.
 ### Dashboard on hardware
 
 >Vervloesem, K. (2021, 18 januari). Zo maak je een eenvoudig dashboard voor je domoticasysteem. computertotaal.nl. https://computertotaal.nl/artikelen/internet-thuis/zo-maak-je-een-eenvoudig-dashboard-voor-je-domoticasysteem/
@@ -26,13 +26,17 @@ There are a lot diffrent ways to make a demotica dashboard, almost all of them a
 >dashboard design examples that catch the eye. (z.d.). eleken.co. https://www.eleken.co/blog-posts/dashboard-design-examples-that-catch-the-eye
 
 In order to start working on a design, I first need to know what makes a dashboard a good dashboard. 
-With some help from [this website](https://www.eleken.co/blog-posts/dashboard-design-examples-that-catch-the-eye) I had found a few things to keep in mind for when designing my dashboard.<br/>
-Firstly, a good dashboard should require the user to look for no longer then 5 seconds for all required data.<br/>
-Secondly, the user should be able to see the most important things first.<br/>
-Last but not least, the user should not be overwelmed with data.
+Following a Literature study, I have compiled the following set of rules that can be apllied to mesure a dashboards efficiency:
+1. Five-second rule:  It should take no more than five seconds for the user to find the most important information on the dashboard.
+2. Clear and logical layout: Divide all the information into three parts in descending order of importance.
+3. Display only key metrics: Do not overwhelm the user with too many details.
+4. Visualize data in an appropriate way: You should organize all the information to make it easy to understand.
+<br/>
+These rules all seem pretty straight forward, they are however very important for making a good dashboard.
+In summary: Keep it simple and focus on whats important
 
 ## What are my dashboard requirements?
-before I start working on possible wireframe designs, I will have to sum up my dashboard requirements.
+before I start working on possible wireframe designs, I will have to sum up my dashboard requirements. it would be very difficult to start designing something without knowing what it's supposed to be able to do.
 The requirements are as follows:
 1. The dashboard must display inside the temperature acurate to 10 seconds
 2. The dashboard should have a fullscreen mode for dedicated tablets and dedicated monitoring devices
