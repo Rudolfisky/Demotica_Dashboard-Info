@@ -32,7 +32,7 @@ Following a Literature study, I have compiled the following set of rules that ca
 3. Display only key metrics: Do not overwhelm the user with too many details.
 4. Visualize data in an appropriate way: You should organize all the information to make it easy to understand.
 <br/>
-These rules all seem pretty straight forward, they are however very important for making a good dashboard.
+These rules all seem pretty straight forward, they are however very important for making a good dashboard.<br/>
 In summary: Keep it simple and focus on whats important
 
 ## What are my dashboard requirements?
