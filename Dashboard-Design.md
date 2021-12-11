@@ -23,6 +23,8 @@ There are a lot diffrent ways to make a demotica dashboard, almost all of them a
 <br/>
 
 ## What are some good dashboard guidelines?
+>dashboard design examples that catch the eye. (z.d.). eleken.co. https://www.eleken.co/blog-posts/dashboard-design-examples-that-catch-the-eye
+
 In order to start working on a design, I first need to know what makes a dashboard a good dashboard. 
 With some help from [this website](https://www.eleken.co/blog-posts/dashboard-design-examples-that-catch-the-eye) I had found a few things to keep in mind for when designing my dashboard.<br/>
 Firstly, a good dashboard should require the user to look for no longer then 5 seconds for all required data.<br/>
