@@ -10,6 +10,8 @@ As is shown in the diagram, there are about 4 services that are comunicating wit
 >Stallman, R. (z.d.). Who Does That Server Really Serve? GNU.Com. Geraadpleegd op 13 december 2021, van https://www.gnu.org/philosophy/who-does-that-server-really-serve.html
 >
 Spring boot applications can be hosted using a variety 3rd party hosting services. the Spring docs mention Heroku Cloud Foundry, Amazon Web Services (AWS), Azure Google cloud and many more. The way this works is through hosting on VM's on a cloud. A vm could be as simple as a linux commandline OS or even a full graphical version of Windows10, even though the latter one would obviously be a less desired choice. The reason for that is that the OS should be as light as possible, This way the vm wont have to spend much proccesing power on just running the operating system.<br/>
+3rd party hosting does bring some security risks however. Hosting software on a 3rd party means having to use SAAS(Software as a Service). not only will i likely have to pay a monthly fee for using the hosting service, I am also at the merce of any monitoring that the provider might do. this all ofcourse largly depends on the provider, it is however a very note worthy subject.<br/>
+While we are on the subject of security, I should also mention that the application itself could prove to be a security risk. By not configuring some API calls or acces configurations correctly, I would allow certain blind spots to be out in the open. This is a problem that could be applied to both 3rd party hosting services as self hosting(next subject).
 ### Self hosting
 
 ### In conclusion
