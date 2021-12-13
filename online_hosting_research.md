@@ -6,7 +6,12 @@ As is shown in the diagram, there are about 4 services that are comunicating wit
 
 ## What are spring boot application hosting solutions
 ### 3rd party hosting service
+>spring boot application deployment. (z.d.). docs.spring.io. https://docs.spring.io/spring-boot/docs/current/reference/html/deployment.html <br/>
+>Stallman, R. (z.d.). Who Does That Server Really Serve? GNU.Com. Geraadpleegd op 13 december 2021, van https://www.gnu.org/philosophy/who-does-that-server-really-serve.html
+>
+Spring boot applications can be hosted using a variety 3rd party hosting services. the Spring docs mention Heroku Cloud Foundry, Amazon Web Services (AWS), Azure Google cloud and many more. The way this works is through hosting on VM's on a cloud. A vm could be as simple as a linux commandline OS or even a full graphical version of Windows10, even though the latter one would obviously be a less desired choice. The reason for that is that the OS should be as light as possible, This way the vm wont have to spend much proccesing power on just running the operating system.<br/>
 ### Self hosting
+
 ### In conclusion
 <br/>
 
@@ -22,4 +27,4 @@ As is shown in the diagram, there are about 4 services that are comunicating wit
 ### In conclusion
 <br/>
 
-## What is a safe way to port fowrward
+## What is a safe way to port forward
