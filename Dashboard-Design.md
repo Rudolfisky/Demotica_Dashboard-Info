@@ -3,9 +3,11 @@ In this document I will use the DOT research framework in order to establish a g
 
 ## What dashboard designs have other people made?
 In order to make a dashboard myself, I need an understanding of how other people tackled this problem. In order to aquire this knowledge, I will be doing a available product analysis.
+
 ### Dashboard on hardware
 On [this link](https://computertotaal.nl/artikelen/internet-thuis/zo-maak-je-een-eenvoudig-dashboard-voor-je-domoticasysteem/) I found a tutorial for making a raspberry pi with a display that acts as a dashboard for a MQTT broker. This kind of dashboard is one that runs on a device dedicated to displaying that dashboard.
 ![related image](https://api.reshift.nl/modules/media/show_image/569967/?width=640&crop=center)
+
 ### Android Dashboard application
 [This link](https://play.google.com/store/apps/details?id=app.homehabit.view&hl=nl&gl=US) leads to an playstore app that allows the user to create their own dashboard using within the app. The dashboard can be made up to the user own specs using multiple popular integrations like MQTT, home assistant, Domoticz and more.
 ![related image](https://play-lh.googleusercontent.com/m1KCENqg8pVep7qdtcdrYjJtVnd--lH_t_7KP8phH-WuebTzTULqoSsQxt16IHIah_8=w2560-h1315)
@@ -34,12 +36,16 @@ The requirements are as follows:
 6. The Dashboard Must show the outside temperature.
 
 ## Designs
-### Mainpage
+The following are some designs I made based on the previous research. These designs will be shown to possible users and experts in order to gain feedback for further improvements.
+
+### Design 1
+Design 1 are the original designs i made for Mobile devices and desktop counterparts.
+#### Mainpage
 On the main page I have only put the essentials. you can see the indoor, outdoor and graph along with a fullscreen and settings button.
 On a side note, the cube in the top left is supposed to be a cog wheel.
 ![dashboard-pc.png](./Media/dashboard-pc.png)
 ![dashboard-mobile.png](./Media/dashboard-mobile.png)
-### Settings
+#### Settings
 In the setting I have put some more technical settings regarding api call intervals.
 Same as with the mainpage, the button on the top left is supposed to be the back button with a back arrow.
 The settings page doesnt have to many configurable settings, but he options it does contain are mostly related to api calls.
@@ -48,4 +54,8 @@ The settings page doesnt have to many configurable settings, but he options it d
 <br/><br/>
 An alternation on the first design using dropdowns instead of buttons. this one could also be applied to the desktop if popular.
 <br/>
+
+### Design 2
+
+
 ![settings-pc.png](./Media/settings-mobile-alt1.png)
