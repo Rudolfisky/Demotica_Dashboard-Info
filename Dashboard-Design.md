@@ -66,9 +66,18 @@ The settings page doesnt have to many configurable settings, but he options it d
 ![settings-pc.png](./Media/settings-mobile.png)
 <br/><br/>
 An alternation on the first design using dropdowns instead of buttons. this one could also be applied to the desktop if popular.
+![settings-pc.png](./Media/settings-mobile-alt1.png)
 <br/>
 
 ### Design 2
+After having gatherd valuable feedback from users.
 
+#### Mainpage
+The most noticible change from the first design is the colouring. This was done to bale to use one graph for 2 types of data.<br/>
+For the desktop variant it became clear that the graph had some unclear data. Both X and Y axis had number, but what do they mean? In order to remedy this, I will ad both celcius icon and time identifiers <br/>
+The mobile varient had a diffrent yet similar issue, the graph just wasn't graph like at all. This was worked on when i added the second graph.
+![dashboard-pc.png](./Media/dashboard-pc-2.png)
+![dashboard-mobile.png](./Media/dashboard-mobile-2.png)
 
-![settings-pc.png](./Media/settings-mobile-alt1.png)
+#### Settings
+the settings page remains largely unchainged. I have dropped the second mobile design in favor of the first.
