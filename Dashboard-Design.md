@@ -5,17 +5,13 @@ In this document I will use the DOT research framework in order to establish a g
 In order to make a dashboard myself, I need an understanding of how other people tackled this problem. In order to aquire this knowledge I will analyze available products from google searches.
 ### Dashboard on hardware
 
->Vervloesem, K. (2021, 18 januari). Zo maak je een eenvoudig dashboard voor je domoticasysteem. computertotaal.nl. https://computertotaal.nl/artikelen/internet-thuis/zo-maak-je-een-eenvoudig-dashboard-voor-je-domoticasysteem/
-
-The source, found through google, is a tutorial for making a raspberry pi with a display that acts as a dashboard for a MQTT broker. This kind of dashboard is one that runs on a device dedicated to displaying that dashboard. the upside to this is that it is a lot cheaper to produce and can be more throughly costumized.<br/>
+(Vervloesem, 2021) Has made a tutorial for making a raspberry pi with a display that acts as a dashboard for a MQTT broker. This kind of dashboard is one that runs on a device dedicated to displaying that dashboard. the upside to this is that it is a lot cheaper to produce and can be more throughly costumized.<br/>
 ![related image](https://api.reshift.nl/modules/media/show_image/569967/?width=640&crop=center)
 <br/>
 
 ### Android Dashboard application
 
->Habit Automated LLC. (2021, 28 november). HomeHabit - Smart Home Dashboard. play.google.com. https://play.google.com/store/apps/details?id=app.homehabit.view&hl=nl&gl=US
-
-The source leads to an playstore app that allows the user to create their own dashboard using within the app. The dashboard can be made up to the user own specs using multiple popular integrations like MQTT, home assistant, Domoticz and more. A common theme among dashboards is that they are very costumizable, as shown by my source<br/>
+(Habit Automated LLC, 2021) Is a playstore app that allows the user to create their own dashboard using within the app. The dashboard can be made up to the user own specs using multiple popular integrations like MQTT, home assistant, Domoticz and more. A common theme among dashboards is that they are very costumizable, as shown by my source<br/>
 ![related image](https://play-lh.googleusercontent.com/m1KCENqg8pVep7qdtcdrYjJtVnd--lH_t_7KP8phH-WuebTzTULqoSsQxt16IHIah_8=w2560-h1315)
 <br/>
 ### In conclusion
@@ -23,10 +19,10 @@ There are a lot diffrent ways to make a demotica dashboard, almost all of them a
 <br/>
 
 ## What are some good dashboard guidelines?
->dashboard design examples that catch the eye. (z.d.). eleken.co. https://www.eleken.co/blog-posts/dashboard-design-examples-that-catch-the-eye
+(dashboard design examples that catch the eye, )
 
 In order to start working on a design, I first need to know what makes a dashboard a good dashboard. 
-Following a Literature study, I have compiled the following set of rules that can be apllied to mesure a dashboards efficiency:
+Following a Literature study of (Eleken, N.D.), I have compiled the following set of rules that can be apllied to mesure a dashboards efficiency:
 1. Five-second rule:  It should take no more than five seconds for the user to find the most important information on the dashboard.
 2. Clear and logical layout: Divide all the information into three parts in descending order of importance.
 3. Display only key metrics: Do not overwhelm the user with too many details.
@@ -81,3 +77,12 @@ The mobile varient had a diffrent yet similar issue, the graph just wasn't graph
 
 #### Settings
 the settings page remains largely unchainged. I have dropped the second mobile design in favor of the first.
+
+##Sources
+
+
+>Vervloesem, K. (2021, 18 januari). Zo maak je een eenvoudig dashboard voor je domoticasysteem. computertotaal.nl. https://computertotaal.nl/artikelen/internet-thuis/zo-maak-je-een-eenvoudig-dashboard-voor-je-domoticasysteem/
+
+>Habit Automated LLC. (2021, 28 november). HomeHabit - Smart Home Dashboard. play.google.com. https://play.google.com/store/apps/details?id=app.homehabit.view&hl=nl&gl=US
+
+>Eleken. (N.D.). dashboard design examples that catch the eye. eleken.co. https://www.eleken.co/blog-posts/dashboard-design-examples-that-catch-the-eye
