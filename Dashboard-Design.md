@@ -78,7 +78,7 @@ The mobile varient had a diffrent yet similar issue, the graph just wasn't graph
 #### Settings
 the settings page remains largely unchainged. I have dropped the second mobile design in favor of the first.
 
-##Sources
+## Sources
 
 
 >Vervloesem, K. (2021, 18 januari). Zo maak je een eenvoudig dashboard voor je domoticasysteem. computertotaal.nl. https://computertotaal.nl/artikelen/internet-thuis/zo-maak-je-een-eenvoudig-dashboard-voor-je-domoticasysteem/
