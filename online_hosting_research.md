@@ -40,6 +40,7 @@ Given the choice between Selfhosting or using a 3rd party, i would pick self hos
 
 
 ## Sources
+If not stated otherwise, all research in this document has been done folling the DOT research framework's Literature study method.
 
 >spring boot application deployment. (z.d.). docs.spring.io. https://docs.spring.io/spring-boot/docs/current/reference/html/deployment.html
 
