@@ -5,4 +5,4 @@ This research will be structured as follows:
 2. Way to automize said task
 3. Requirements for automization/ integration in project
 4. Conclusion
-5. Return to step 1
+5. Repeat
