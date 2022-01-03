@@ -6,3 +6,9 @@ This research will be structured as follows:
 3. Requirements for automation/ integration in project
 4. Conclusion
 5. Repeat
+
+## Morning routines 
+
+## Getting home from work
+
+## 
