@@ -16,7 +16,18 @@ The home automation software simply orchestrates all of those devices. You can p
 Whilst we do don't want to immediately program routines into our home, we do want acces to devices through API calls. And this is where home automazation software comes in. With plenty to chose from(Pelaez, 2019) will without a doubt be able to set up a nice opensource home environment. by connecting devices to our home automation platform, we will have acces to the devices through the platforms opensource API.
 
 ## Morning routines 
-By executing a quick Google search for "using home automation for you morning routines" one will find many easy and simple ways to automate ones home. (Heinzman, 2019) Gives a few good example's of things to automate and what devices could fill that need. The main subjects for automation are breakfast/morning brew preperation, smart alarms and automated news/media player. (Heinzman, 2019) Also contains some examples of devices that could fill these automation needs, so lets take a look at a few of them and see if we can implement them in our dashboard.
+By executing a quick Google search for "using home automation for you morning routines" one will find many easy and simple ways to automate ones home. (Heinzman, 2019) Gives a few good example's of things to automate and what devices could fill that need. The main subjects for automation are breakfast/morning brew preperation, smart alarms and automated news/media player. (Heinzman, 2019) Also contains some examples of devices that could fill these automation needs. 
+
+## Assistants
+As previously mentioned these breakfast/morning brew preperation, smart alarms and automated news/media players all have one thing in common, they connect to a digital assistant. 
+
+AS (G+T, 2021) describes:
+>There are two ways in which a third party consumer IoT can interconnect with a general voice assistant service. First, there is the ‘works with’ approach which allow manufacturers to make their smart home devices controllable through a voice assistant embodied on another device (i.e. smart speaker) or app support (i.e. smartphone application). The smart home device manufacturer uses the voice assistant provider’s documentation on API functionality to develop a voice application. The voice assistant provider then tests the developed integration to ensure a good user experience. If certification is granted, manufacturers can use “works with” logos or badges in their packaging or for online marketing.<br/>
+
+>Second, there is the ‘built in certification’ process which allows third party smart device manufacturers to support Amazon or Google’s cloud-based voice assistants on their devices and gain the “Alexa built-in” or “Google Assistant built-in” badges. Apple, on the contrary, does not offer built-in certifications, as Siri can only be built-in on Apple’s own devices.
+
+Although (G+T, 2021) goes more into detail about these assistants dominating the IoT market, Which is a very pressing and intresting matter, i will only talk about the how, what and why. For instance
+
 ### Breakfast/morning brew preperation
 
 ### Smart alarms
@@ -34,3 +45,5 @@ By executing a quick Google search for "using home automation for you morning ro
 >C. (2021, september 26). Open Source Home Automation Software (Actually Worth Using! ?). 24/7 Home Security. Geraadpleegd op 8 januari 2022, van https://24-7-home-security.com/open-source-home-automation-software/
 
 >Pelaez, A. (2019, 30 october). 16 Open Source Home Automation Platforms To Use In 2020. Ubidots Blog. Geraadpleegd op 8 januari 2022, van https://ubidots.com/blog/open-source-home-automation/
+
+>Will Voice Assistance Dominate the Internet of Things (IoT)? | G+T. (2021, 15 juni). Gilbert+Tobin. Used on 15 januari 2022, from https://www.gtlaw.com.au/knowledge/ecs-competition-concerns-alexa-google-assistant-siri-will-dominate-consumer-iot
