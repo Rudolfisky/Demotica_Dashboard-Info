@@ -26,7 +26,9 @@ AS (G+T, 2021) describes:
 
 >Second, there is the ‘built in certification’ process which allows third party smart device manufacturers to support Amazon or Google’s cloud-based voice assistants on their devices and gain the “Alexa built-in” or “Google Assistant built-in” badges. Apple, on the contrary, does not offer built-in certifications, as Siri can only be built-in on Apple’s own devices.
 
-Although (G+T, 2021) goes more into detail about these assistants dominating the IoT market, Which is a very pressing and intresting matter, i will only talk about the how, what and why. For instance
+Although (G+T, 2021) goes more into detail about these assistants dominating the IoT market, Which is a very pressing and intresting matter, i will only talk about the how, what and why's of assitants. If you look at the accessibility of assistands, you'll find that both Android and Apple come with their own voice controlled assistands making them not only accessible to moble devices, but a basic feature. These assistands are ofcourse also available on dedicated devices which usually take the form of a smart speaker(Alexa, Google home etc.). These speakers canbe controlled through either either direct voice commands or through the mobile applications.
+### In conclusion
+Not only are mobile devices the most sensible device for interacting with IoT devices, but they also come loaded with a interface. This interface however, will only work with compatible devices and will require some tweaking if one plans on using it for DIY IoT devices.
 
 ### Breakfast/morning brew preperation
 
